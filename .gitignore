@@ -33,3 +33,5 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+/nbproject/private/
+/dist/
