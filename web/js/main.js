@@ -54,19 +54,19 @@
                 required: false,
             }
             , message: {
-                required: true,
+                required: true, minlength: 4
             }
             ,
         }
         , messages: {
-            user_name: {
-                required: "Come on, you have a name don't you?", minlength: "Your name must consist of at least 2 characters"
+            name: {
+                required: "El nombre es requerido", minlength: "Tu nombre debe contener al menos cuatro caracteres"
             }
             , email: {
-                required: "Please put your email address",
+                required: "Por favor ingresa tu correo electronico.",
             }
             , message: {
-                required: "Put some messages here?", minlength: "Your name must consist of at least 2 characters"
+                required: "Ingresa un mensaje aqui", minlength: "El mensaje debe contener al menos 10 caracteres"
             }
             ,
         }
