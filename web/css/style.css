@@ -450,11 +450,11 @@ a:hover {
 }
 
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #479A82;
 }
 
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #249285;
 }
 
 .works {
@@ -1236,9 +1236,9 @@ article {
 }
 
 #footer {
-  background: #fff;
-  padding: 25px 0;
-  color: #555;
+  background: #333;
+    padding: 15px 0;
+    color: #fff;
 }
 
 #footer .copyright {
@@ -1262,7 +1262,7 @@ article {
 
 #footer .social li a {
   font-size: 22px;
-  color: #249285;
+  color: #fff;
 }
 
 .cd-headline.slide .cd-words-wrapper {
@@ -1436,3 +1436,5 @@ px      68    160    252    344    436    */
 
 
 .buttons{left:40% !important;}
+.gray{background: #f1f1f1;height: 90px;text-align: center; padding: 15px;
+    margin-left: 10px;}
