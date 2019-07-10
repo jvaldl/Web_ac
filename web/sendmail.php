@@ -1,11 +1,9 @@
 <?php
 
-if(isset($_POST['btn_send']))
-  {
-echo("<script>console.log('boton');</script>");
-}
+$destinatario = "jvaldl00@gmail.com" . ", ";
+$destinatario .= "claumn87@gmail.com" . ", ";
+$destinatario .= "administracion@acindustrialsolutions.com"; 
 
-$destinatario = "claumn87@gmail.com; jvaldl00@gmail.com"; 
 $asunto = "CONTACTO WEB AC INDUSTRIAL SOLUTIONS"; 
 
 $nombre = strip_tags($_POST['name']);
@@ -19,21 +17,9 @@ $cuerpo = '<p>Nombre:'. $nombre . '</p>' . '<p>Correo:' . $correo .'</p>' . '<p>
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 
-//direccion del remitente 
+// Additional headers
 $headers .= "From:" . $nombre . "<".$correo.">\r\n"; 
 
 $bool = mail($destinatario,$asunto,$cuerpo,$headers) ;
-if($bool){
-  echo("Mensaje enviado");
-  // echo("<script>alert('Mensaje enviado');</script>");
-  // echo("<script>window.location='contact.html';</script>");
-  //echo("<script>window.location.replace('http://www.acindustrialsolutions.com/contact.html');</script>");
-  
-}else{
-    echo("Mensaje NO enviado");
-    //echo("<script>alert('Mensaje no enviado');</script>");
-    //echo("<script>window.location.replace('http://www.acindustrialsolutions.com/contact.html');</script>");
-    //echo("<script>window.location='contact.html';</script>");
-}
 
 ?>
