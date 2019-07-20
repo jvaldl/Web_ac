@@ -1436,5 +1436,12 @@ px      68    160    252    344    436    */
 
 
 .buttons{left:40% !important;}
-.gray{background: #f1f1f1;height: 90px;text-align: center; padding: 15px;
-    margin-left: 10px;}
+.gray{
+    background: #f1f1f1;
+    height: 150px; 
+    width:300px; 
+    text-align: center; 
+    padding: 15px;
+    margin-left: 10px;
+
+}
