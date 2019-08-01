@@ -1445,3 +1445,17 @@ px      68    160    252    344    436    */
     margin-left: 10px;
 
 }
+
+.fancybox-prev span {
+    background: url(../images/icons/left.png) no-repeat scroll center center #249285;
+    height: 50px;
+    width: 50px;
+    left: 0;
+}
+
+.fancybox-next span {
+    background: url(../images/icons/right.png) no-repeat scroll center center #249285;
+    height: 50px;
+    width: 50px;
+    right: 0;
+}
